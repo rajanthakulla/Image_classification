@@ -8,15 +8,27 @@ This project implements Convolutional Neural Network (CNN) models using TensorFl
    ```sh
    git clone https://github.com/your-username/CNN-MNIST-Classification.git
    cd CNN-MNIST-Classification
-Install dependencies:
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the notebook:
+   ```sh
+   jupyter notebook classification.ipynb
+   ```
 
-sh
-Copy
-Edit
-pip install -r requirements.txt
-Run the notebook:
+## Models Implemented
+- **Model-1**: CNN with max pooling
+- **Model-2**: CNN with average pooling
+- **Model-3**: CNN with same padding
+- **Model-4**: CNN with zero padding
+- Hyperparameter tuning using **Keras Tuner**
 
-sh
-Copy
-Edit
-jupyter notebook classification.ipynb
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- TensorFlow, Keras, and other dependencies (`requirements.txt`)
+
+## Author
+[Rajan Thakulla](https://github.com/your-username)
