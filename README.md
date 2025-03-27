@@ -8,3 +8,15 @@ This project implements Convolutional Neural Network (CNN) models using TensorFl
    ```sh
    git clone https://github.com/your-username/CNN-MNIST-Classification.git
    cd CNN-MNIST-Classification
+Install dependencies:
+
+sh
+Copy
+Edit
+pip install -r requirements.txt
+Run the notebook:
+
+sh
+Copy
+Edit
+jupyter notebook classification.ipynb
